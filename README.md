@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/light.png" alt="Wonder Hive Banner" width="100%">
+  <img src="banner.png" alt="Wonder Hive Banner" width="100%">
 </p>
 
 <h1 align="center">🍒 Wonder Hive</h1>
