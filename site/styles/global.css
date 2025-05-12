@@ -1,0 +1,351 @@
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme */
+html {  
+  --success-light-color: 54, 212, 154;
+  --success-main-color: 5, 148, 103;
+  --success-dark-color: 5, 120, 87;
+
+  --info-light-color: 33, 210, 237;
+  --info-main-color: 8, 142, 176;
+  --info-dark-color: 13, 115, 143;
+
+  --warning-light-color: 250, 204, 20;
+  --warning-main-color: 232, 176, 8;
+  --warning-dark-color: 163, 98, 8;
+
+  --error-light-color: 248, 114, 114;
+  --error-main-color: 239, 67, 67;
+  --error-dark-color: 186, 28, 28;
+}
+
+
+html.tm-light {
+  --background-extralight-color: 255, 255, 255;
+  --background-light-color: 250, 250, 250;
+  --background-main-color: 245, 245, 245;
+  --background-dark-color: 240, 240, 240;
+
+  --text-light-color: 120, 120, 120;
+  --text-main-color: 70, 60, 60;
+  --text-dark-color: 40, 30, 30;
+
+  --scroll-thumb-bg: rgb(69, 77, 84);
+  --scroll-body-bg: rgb(240, 244, 255);
+  --selection: #cdcccc;
+  --border-outline: 220, 220, 220;
+}
+html.tm-dark {
+  --text-light-color: 162, 162, 162;
+  --text-main-color: 209, 213, 219;
+  --text-dark-color: 255, 255, 255;
+
+  --background-extralight-color: 12,12,12;
+  --background-light-color: 8, 8, 8;
+  --background-main-color: 4, 4, 4;
+  --background-dark-color: 0,0,0;
+
+  --scroll-thumb-bg: rgb(39, 44, 48);
+  --scroll-body-bg: rgba(11, 16, 29);
+  --selection: #23272c;
+  --border-outline: 40, 42, 48;
+}
+html.tc-blue{
+  --primary-light-color: 71, 105, 255;
+  --primary-main-color: 51, 85, 255;
+  --primary-dark-color: 31, 65, 255;
+
+  --secondary-light-color: 227, 60, 52;
+  --secondary-main-color: 179, 56, 50;
+  --secondary-dark-color: 201, 34, 26;
+}
+html.tc-red{
+  --primary-light-color: 247, 82, 82;
+  --primary-main-color: 224, 63, 63;
+  --primary-dark-color: 207, 52, 52;
+
+  --secondary-light-color: 242, 19, 19;
+  --secondary-main-color: 201, 28, 28;
+  --secondary-dark-color: 179, 27, 27;
+}
+html.tc-violet{
+  --primary-light-color: 71, 105, 255;
+  --primary-main-color: 51, 85, 255;
+  --primary-dark-color: 31, 65, 255;
+
+  --secondary-light-color: 227, 60, 52;
+  --secondary-main-color: 179, 56, 50;
+  --secondary-dark-color: 201, 34, 26;
+}
+html.tc-cyan{
+  --primary-light-color: 71, 105, 255;
+  --primary-main-color: 51, 85, 255;
+  --primary-dark-color: 31, 65, 255;
+
+  --secondary-light-color: 227, 60, 52;
+  --secondary-main-color: 179, 56, 50;
+  --secondary-dark-color: 201, 34, 26;
+}
+html.tc-yellow{
+  --primary-light-color: 71, 105, 255;
+  --primary-main-color: 51, 85, 255;
+  --primary-dark-color: 31, 65, 255;
+
+  --secondary-light-color: 227, 60, 52;
+  --secondary-main-color: 179, 56, 50;
+  --secondary-dark-color: 201, 34, 26;
+}
+html.tc-green{
+  --primary-light-color: 71, 105, 255;
+  --primary-main-color: 51, 85, 255;
+  --primary-dark-color: 31, 65, 255;
+
+  --secondary-light-color: 227, 60, 52;
+  --secondary-main-color: 179, 56, 50;
+  --secondary-dark-color: 201, 34, 26;
+}
+html.tc-emerald{
+  --primary-light-color: 71, 105, 255;
+  --primary-main-color: 51, 85, 255;
+  --primary-dark-color: 31, 65, 255;
+
+  --secondary-light-color: 227, 60, 52;
+  --secondary-main-color: 179, 56, 50;
+  --secondary-dark-color: 201, 34, 26;
+}
+html.tc-orange{
+  --primary-light-color: 71, 105, 255;
+  --primary-main-color: 51, 85, 255;
+  --primary-dark-color: 31, 65, 255;
+
+  --secondary-light-color: 227, 60, 52;
+  --secondary-main-color: 179, 56, 50;
+  --secondary-dark-color: 201, 34, 26;
+}
+html.tc-pink{
+  --primary-light-color: 191, 35, 252;
+  --primary-main-color: 191, 35, 252;
+  --primary-dark-color: 191, 35, 252;
+
+  --secondary-light-color: 227, 60, 52;
+  --secondary-main-color: 179, 56, 50;
+  --secondary-dark-color: 201, 34, 26;
+}
+html.tft-tahoma{
+  --font-type: "tahoma", sans-serif;
+}
+html.tft-verdana{
+  --font-type: "verdana", sans-serif;
+}
+html.tft-garamond{
+  --font-type: "garamond", sans-serif;
+}
+html.tft-poppins{
+  --font-type: "poppins", sans-serif;
+}
+html.tfs-xs{
+  --font-size: 12px;
+}
+html.tfs-sm{
+  --font-size: 14px;
+}
+html.tfs-md{
+  --font-size: 16px;
+}
+html.tfs-lg{
+  --font-size: 18px;
+}
+html.tfs-xl{
+  --font-size: 20px;
+}
+html.tbr-none{
+  --border-radius: 0px;
+}
+html.tbr-xs{
+  --border-radius: 0.125rem;
+}
+html.tbr-sm{
+  --border-radius:  0.25rem;
+}
+html.tbr-md{
+  --border-radius: 0.375rem;
+}
+html.tbr-lg{
+  --border-radius: 0.5rem;
+}
+html.tbr-xl{
+  --border-radius: 0.75rem;
+}
+html.tbr-2xl{
+  --border-radius: 1rem;
+}
+html.tbr-3xl{
+  --border-radius: 1.5rem;;
+}
+html.tc-silver.tm-dark{
+  --primary-light-color: 54, 64, 74;
+  --primary-main-color:54, 64, 74;
+  --primary-dark-color:54, 64, 74;
+
+  --secondary-light-color: 242, 19, 19;
+  --secondary-main-color: 201, 28, 28;
+  --secondary-dark-color: 179, 27, 27;
+}
+html.tc-silver.tm-light{
+  --primary-light-color:156, 169, 181;
+  --primary-main-color:156, 169, 181;
+  --primary-dark-color:156, 169, 181;
+
+  --secondary-light-color: 242, 19, 19;
+  --secondary-main-color: 201, 28, 28;
+  --secondary-dark-color: 179, 27, 27;
+}
+
+*, *::after, *::before {
+    transition: background 300ms ease-in-out, color 30ms ease,
+    border 300ms ease-in-out;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+html{
+  --theme: rgba(var(--primary-main-color),1);
+  font-size: var(--font-size);
+}
+body {
+  scroll-behavior: smooth;
+  color: rgba(var(--text-main-color));
+  font-family: var(--font-type);
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background: rgba(var(--background-dark-color));
+}
+img {
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+-moz-backface-visibility:    hidden;
+-ms-backface-visibility:     hidden;
+}
+::selection {
+  background: var(--selection);
+}
+::-webkit-scrollbar {
+  background: var(--scroll-body-bg);
+  width: 10px;
+}
+::-webkit-resizer {
+  background-color: var(--scroll-body-bg);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-thumb-bg);
+  border-radius: 2rem;
+  border: 2px solid var(--scroll-body-bg);
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+.animate-float {
+  animation: float 2s infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.animate-like {
+  animation: heart 0.5s 1;
+  transform:scale(0);
+  opacity:0;
+}
+@keyframes heart {
+  0% {
+    transform: scale(0);
+    opacity:1
+  }
+  99% {
+    transform: scale(1);
+    opacity:0.5
+  }
+  100% {
+    opacity:0
+  
+  }
+}
+
+.fancy-border{
+  border-radius: 20% 80% 20% 80% / 20% 80% 20% 80%;
+}
+.swiper-wrapper{
+  align-items: stretch !important;
+}
+.swiper-slide {
+  height: auto  !important
+}
+
+
+
+.animate-alert{
+  animation: swipe 12s ease-out ;
+  animation-iteration-count: 1;
+}
+@keyframes swipe {
+  0%{
+    transform:  translateX(100%);opacity:1
+  }
+  5%{
+    transform:  translateX(0%);opacity:1
+  }
+  95%{
+    transform:  translateX(0%);opacity:1
+  }
+  100%{
+    transform:  translateX(0%);opacity:1
+  }
+}
+
+.heart-notify{
+  transition: all;
+  position: absolute;
+  transform-origin: left center;
+}
+.animate-heart-notify{
+  animation: scale 0.3s ease-out ;
+  animation-iteration-count: 1;
+}
+.heart-notify .arrow {
+  width: 0px;
+  height: 0px;
+  border-right: 16px solid rgba(var(--primary-light-color),1);
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  position: absolute;
+  top: 50%;
+  transform:translateY(-50%);
+  left:-16px;
+}
+@keyframes scale {
+  0%{transform: scale(0)translateX(160%);}
+  100%{transform: scale(1)translateX(160%);}
+}
